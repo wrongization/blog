@@ -1,0 +1,109 @@
+---
+title: Markdown测试
+abbrlink: 4a17b157
+---
+
+# 标题    
+
+## 标题  
+
+
+标题
+=========
+标题
+--------
+
+测试正文1  
+__粗体__简易换行\
+测试**粗体**和*html（斜体）*换行<br>
+***斜体粗体***  
+
+\
+\
+\
+转义符:  
+\*     
+\\   
+\_  
+
+
+>块引用
+> # The quarterly results look great!
+>
+> - Revenue was off the chart.
+> - Profits were higher than ever.
+>
+>>  *Everything* is going according to **plan** 
+
+
+
+列表    
+*   This is the first list item.
+*   Here's the second list item.
+
+    I need to add another paragraph below the second list item.
+    >  *Everything* is going according to **plan**.
+
+*   And here's the third list item.
+
+
+    1.  Open the file.
+    2.  Find the following code block on lines:
+        
+
+                #include<stdio.h>  
+                int main()  
+                {  
+                    printf("hello world!");  
+                    return 0;  
+                }  
+    3.  图片
+
+
+
+---
+***
+___
+
+`#include<stdio.h>`  
+代码块：  
+~~~ c
+{
+#include <stdio.h>
+
+int main(void)
+{
+    
+    printf("hello,world!");
+
+    return 0;}
+}
+~~~
+
+这是一个链接 [***ARCAEA***](https://arcaea.lowiro.com/)   
+图片![alt text](logo.png) 
+
+链接<https://arcaea.lowiro.com/>  
+
+
+图片连接[![arc](arc.png)](https://arcaea.lowiro.com/)
+
+
+
+| 表格      |  |
+| ----------- | ----------- |
+|     ![alt text](logo2.png)  | ![alt text](logo.png)       |
+|logo2                     |          **logo1**        |
+
+
+~~太阳绕着地球转。~~ 
+:sunny::earth_asia:
+ 
+
+<font color=blue size=6>诚然，脚下的“大地”肮脏且缺乏秩序，距离那片高贵而完美的“天空”遥不可及。但是这不就意味着我们可以亲眼见证“完美”吗？人可以认知完美，地球就是完美的观测特等席</font>
+
+- [x] full recall
+- [x] pure memory
+- [ ] 3:star:
+
+
